@@ -1,4 +1,4 @@
-# sql-datawarehouse-project
+# Data Warehouse & Analytics Project
 Building a modern Data warehouse using SQL Server, which includes  ETL process, data modelling and analysis.
 
 This project demonstrates an end-to-end Data Warehouse and Analytics pipeline built using Microsoft SQL Server. The architecture follows the Medallion framework (Bronze → Silver → Gold) to progressively transform raw data into clean, business-ready datasets for analytics and reporting.
