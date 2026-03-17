@@ -1,18 +1,15 @@
-USE Datawarehouse;
-GO
-
 /*==============================================================
  SILVER LAYER TABLE CREATION
 
  PURPOSE:
- The Silver layer stores cleaned and standardized data
+ The Silver layer stores cleaned and standardised data
  derived from the Bronze layer.
 
  LOGIC:
- 1. Check if table exists
+ 1. Check if the table exists
  2. If exists → Drop table
- 3. Recreate table
- 4. Add metadata column to track record creation time
+ 3. Recreate the table
+ 4. Add a metadata column to track record creation time
 ==============================================================*/
 
 
