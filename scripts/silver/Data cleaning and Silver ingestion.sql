@@ -1,3 +1,27 @@
+/*
+=====================================================
+Silver Layer – Data Transformation & Cleansing
+=====================================================
+
+Purpose:
+The Silver layer transforms raw Bronze data into 
+clean, standardised, and structured datasets.
+
+Key operations performed:
+• Data cleaning (NULL handling, trimming text)
+• Data standardisation (gender, marital status, country codes)
+• Duplicate removal
+• Data validation and corrections
+• Data enrichment (product end date calculation)
+
+Process:
+A stored procedure (silver.load_silver) truncates
+existing Silver tables and reloads cleaned data 
+from the Bronze layer.
+
+This ensures consistent and reliable data for the 
+Gold layer analytical models.
+*/
 CREATE OR ALTER PROCEDURE silver.load_silver
 AS
 BEGIN
