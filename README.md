@@ -100,7 +100,19 @@ The objective of this project is to demonstrate the ability to:
 * Apply **industry-standard data engineering practices**
 
 ---
+## 📄 Project Documentation
 
+For detailed documentation, including data models, data catalog, transformations, and design decisions, refer to the Notion workspace:
+
+👉 https://www.notion.so/SQL-Data-Warehouse-Project-20fa8bc5079a838b96bf814beaef04b0?source=copy_link
+
+This includes:
+
+* End-to-end data flow (Bronze → Silver → Gold)
+* Star schema design and data modeling
+* Data catalog and column definitions
+* Key business logic and assumptions
+---
 # 👨‍💻 Author
 
 This project was developed as a hands-on portfolio project to practice **data warehousing, ETL development, and dimensional modeling**, focusing on real-world data engineering workflows.
