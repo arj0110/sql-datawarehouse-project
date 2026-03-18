@@ -4,6 +4,7 @@
 -- Includes:
 --   - Dimension tables (descriptive attributes)
 --   - Fact tables (transactional/measurable data)
+-- OBJECT TYPE : VIEWS
 -- =============================================
 
 
